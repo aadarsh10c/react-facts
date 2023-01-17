@@ -42,3 +42,35 @@ html {
   padding: 1rem;
 }
 
+.main{
+  background: #282D35;
+  color: #FFF;
+  margin: 0;
+  padding-top: .5rem;
+  padding-bottom: 3rem;
+}
+
+.main__list{
+  margin: 0;
+  margin-left: 3rem;
+  line-height: 3.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  max-width: 35rem;
+}
+
+.main__list-points::marker{
+  color:  #61DAFB;
+  font-size: 2rem;
+}
+.main__list-points:last-child{
+  line-height: 1;
+}
+
+.main__title{
+  font-size: 3.9rem;
+  margin-left: 3.4rem;
+}
+
+
+
