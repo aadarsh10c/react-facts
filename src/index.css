@@ -48,6 +48,9 @@ html {
   margin: 0;
   padding-top: .5rem;
   padding-bottom: 3rem;
+  background-image: url("./assets/reactjs-icon-2.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
 
 .main__list{
