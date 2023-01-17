@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.App{
+  margin: auto 32rem;
+}
+
+.header{
+  background: #21222A;
+  font-family: 'Inter';
+  font-style: normal;
+  box-shadow: 0 1rem 2rem rgba(#21222A , .5);
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #61DAFB;
+  display: inline-block;
+  text-align: center;
+  padding-left: 3.2rem;
+}
+
+.logo--image{
+  transform: translateY(.5rem);
+}
+.logo--text{
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.header--title{
+  display: inline-block;
+  color: #DEEBF8;
+  font-size: 1.6rem;
+  transform: translateX(18rem);
+  padding: 1rem;
+}
