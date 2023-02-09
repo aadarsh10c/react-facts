@@ -15,6 +15,9 @@ html {
   font-family: 'Inter';
   font-style: normal;
   box-shadow: 0 1rem 2rem rgba(#21222A , .5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo{
@@ -34,12 +37,66 @@ html {
   margin-left: 1rem;
 }
 
-.header--title{
-  display: inline-block;
-  color: #DEEBF8;
-  font-size: 1.6rem;
-  transform: translateX(18rem);
-  padding: 1rem;
+.header--container{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.header--container-light{
+  color: yellow;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+
+.header--slider{
+  width: 3rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50px;
+  position: relative;
+}
+
+.header--slider-light{
+  width: 3rem;
+  height: 1.5rem;
+  background-color: yellow;
+  border-radius: 50px;
+  position: relative;
+}
+
+.header--circle{
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: #21222A;
+  border-radius: 50%;
+  position: absolute;
+  top:1%;
+  left:1%;
+  transition: all 1s;
+  
+}
+
+.header--circle-light{
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: #21222A;
+  border-radius: 50%;
+  position: absolute;
+  top:1%;
+  right:1%;
+  transition: all 1s; 
 }
 
 .main{
